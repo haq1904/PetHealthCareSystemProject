@@ -1,11 +1,137 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Trang-1" id="8K1XiuxhxCOyhfcTuzyn">
-    <mxGraphModel dx="1050" dy="1796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="810" dy="1953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QY5TkbS7HgelhhC83756-1" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1409&quot; height=&quot;572&quot; style=&quot;border-collapse:collapse;width:845,42pt;&quot;&gt;&#xa; &lt;colgroup&gt;&lt;col width=&quot;226&quot; style=&quot;width:135,70pt;&quot;&gt;&#xa; &lt;col width=&quot;1183&quot; style=&quot;width:710,10pt;&quot;&gt;&#xa; &lt;/colgroup&gt;&lt;tbody&gt;&lt;tr height=&quot;572&quot; style=&quot;height:343,20pt;&quot;&gt;&#xa;  &lt;td class=&quot;et2&quot; height=&quot;572&quot; width=&quot;226&quot; style=&quot;height:343,20pt;width:135,70pt;&quot;&gt;Khách hàng (Customer)&lt;br&gt;Nhân viên (Staff)&lt;br&gt;Bác sĩ thú y (Veterinarian)&lt;br&gt;Người quản trị hệ thống (Admin)&lt;/td&gt;&#xa;  &lt;td class=&quot;et2&quot; width=&quot;1183&quot; style=&quot;width:710,10pt;&quot;&gt;+ Khách hàng&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Quản lý danh sách thú cưng&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Xem thông tin chi tiết của thú cưng (kèm theo lịch sử khám chữa bệnh, vaccine hàng năm của thú cưng)&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Đăng ký khám bệnh theo thời gian cụ thể (trả chi phí book khám), có thể chọn bác sĩ thú y, nếu không chọn bác sĩ thú y thì nhân viên sẽ sắp xếp cho 1 bác sĩ cụ thể trước khi đến khám. Trường hợp hủy đăng ký khám (trước 7 ngày được hoàn lại tiền khám nếu thanh toán trước, từ 3 - 6 ngày hoàn 75% phí trả trước, trường hợp còn lại sẽ không hoàn phí thanh toán trước.&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Đưa thú cưng đi khám (checkin), trả chi phí dịch vụ phát sinh&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Đánh giá các lần khám.&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Trường hợp thú cưng nhập viện (lưu chuồng), khách hàng có thể theo dõi quá trình chữa bệnh của thú cưng&lt;br&gt;&lt;br&gt;+ Nhân viên &lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Quản lý thông tin về các chuồng (phòng) trong hệ thống &lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Quản lý các booking, và xử lý hủy booking (trường hợp Hệ thống hủy, khách hàng được hoàn tiền nếu đã thanh toán tiền trước)&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Quản lý thông tin của thú cưng nhập viện (lưu chuồng) (cập nhật thông tin theo định kỳ hoặc cập nhật thông tin khi cần thiết cho khách hàng có thể theo dõi trực tuyến)&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Sắp lịch cho bác sĩ thú y (bác sĩ rảnh) trong trường hợp khách hàng mang thú cưng đến khám trực tiếp không book trước.hyh9&lt;br&gt;&lt;br&gt;+ Bác sĩ thú y (Veterinarian)&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Trường hợp này Bác sĩ thuộc hệ thống (làm việc fulltime), thời gian khám của bác sĩ được công bố cho khách hàng lựa chọn khi booking. &lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Bác sĩ khám cho thú cưng, ghi nhận hồ sơ khám&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Bác sĩ chăm sóc thú cưng nhập viện (lưu chuồng) và ghi nhận hồ sơ&lt;br&gt;&lt;br&gt;+ Admin&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Quản lý tài khoản&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Quản lý cấu hình hệ thống&lt;br&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;- Thống kê doanh thu của hệ thống theo tháng, tuần, ngày)+&lt;/td&gt;&#xa; &lt;/tr&gt;&#xa;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="-100" width="560" height="700" as="geometry" />
+        <mxCell id="QY5TkbS7HgelhhC83756-2" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-3" value="&lt;u&gt;Id_Customer&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-1020" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-4" value="Address" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-960" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-5" value="Name_Customer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-1070" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-6" value="Phone_Number" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-1060" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-7" value="Email" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-990" width="104" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-8" value="Wallet" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-900" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QY5TkbS7HgelhhC83756-2" target="QY5TkbS7HgelhhC83756-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="-740" as="sourcePoint" />
+            <mxPoint x="410" y="-790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QY5TkbS7HgelhhC83756-5" target="QY5TkbS7HgelhhC83756-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="-730" as="sourcePoint" />
+            <mxPoint x="420" y="-780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-11" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QY5TkbS7HgelhhC83756-7" target="QY5TkbS7HgelhhC83756-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="-720" as="sourcePoint" />
+            <mxPoint x="430" y="-770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QY5TkbS7HgelhhC83756-3" target="QY5TkbS7HgelhhC83756-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="185" y="-1010" as="sourcePoint" />
+            <mxPoint x="220" y="-980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QY5TkbS7HgelhhC83756-4" target="QY5TkbS7HgelhhC83756-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="-990" as="sourcePoint" />
+            <mxPoint x="160" y="-980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.421;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.756;exitY=0.062;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QY5TkbS7HgelhhC83756-8" target="QY5TkbS7HgelhhC83756-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="-903" as="sourcePoint" />
+            <mxPoint x="160" y="-920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-18" value="Pet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-995" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-19" value="&lt;u&gt;Id_Pet&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-1025" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-20" value="Weight" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-965" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-21" value="Name_Pet" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-1075" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-22" value="Species" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="-1060" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-23" value="Age" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-995" width="104" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-24" value="Wallet" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-905" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="QY5TkbS7HgelhhC83756-18" target="QY5TkbS7HgelhhC83756-22" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="-745" as="sourcePoint" />
+            <mxPoint x="890" y="-795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="QY5TkbS7HgelhhC83756-21" target="QY5TkbS7HgelhhC83756-18" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="-735" as="sourcePoint" />
+            <mxPoint x="900" y="-785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-27" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="QY5TkbS7HgelhhC83756-23" target="QY5TkbS7HgelhhC83756-18" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="-725" as="sourcePoint" />
+            <mxPoint x="910" y="-775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-28" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" source="QY5TkbS7HgelhhC83756-19" target="QY5TkbS7HgelhhC83756-18" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="-1015" as="sourcePoint" />
+            <mxPoint x="700" y="-985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-29" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="QY5TkbS7HgelhhC83756-20" target="QY5TkbS7HgelhhC83756-18" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="-995" as="sourcePoint" />
+            <mxPoint x="640" y="-985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.421;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.756;exitY=0.062;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="QY5TkbS7HgelhhC83756-24" target="QY5TkbS7HgelhhC83756-18" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-908" as="sourcePoint" />
+            <mxPoint x="640" y="-925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-31" value="Id_Customer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-880" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-32" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="QY5TkbS7HgelhhC83756-31" parent="1" target="QY5TkbS7HgelhhC83756-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="-860" as="sourcePoint" />
+            <mxPoint x="700" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY5TkbS7HgelhhC83756-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="-850" as="sourcePoint" />
+            <mxPoint x="870" y="-850" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
