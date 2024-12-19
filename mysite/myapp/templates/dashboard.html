@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Health Care System</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Chào mừng, {{ user.username }}!</h1>
+    <p>Đây là bảng điều khiển của bạn. Bạn có thể quản lý thú cưng, đăng ký khám bệnh và theo dõi quá trình chữa bệnh của thú cưng.</p>
+
+    <h2>Quản lý thú cưng</h2>
+    <ul>
+        {% for pet in pets %}
+            <li>
+                <a href="#">{{ pet.name }}</a>
+            </li>
+        {% empty %}
+            <li>Bạn chưa có thú cưng nào.</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Chức năng</h3>
+    <ul>
+        <li><a href="#">Đăng ký khám bệnh</a></li>
+        <li><a href="#">Đưa thú cưng đi khám</a></li>
+        <li><a href="#">Đánh giá các lần khám</a></li>
+        <li><a href="#">Quản lý nhập viện</a></li>
+    </ul>
+
+    <br>
+    <a href="{% url 'logout' %}">Đăng xuất</a>
+</body>
+</html>

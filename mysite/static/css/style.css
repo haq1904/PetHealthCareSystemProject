@@ -1,0 +1,86 @@
+/* Đặt nền và màu chữ chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Phần tiêu đề chính */
+h1 {
+    color: #4CAF50; /* Màu xanh lá cây */
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #4CAF50;
+}
+
+/* Thông điệp chào mừng */
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* Phần tiêu đề danh sách thú cưng */
+h2 {
+    color: #333;
+    margin-left: 20px;
+}
+
+/* Liên kết trong danh sách thú cưng */
+a {
+    color: #2196F3; /* Màu xanh dương */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0b7dda;
+}
+
+/* Danh sách thú cưng */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Phần chức năng */
+h3 {
+    color: #4CAF50;
+    margin-left: 20px;
+}
+
+ul li a {
+    color: #FF5722; /* Màu cam */
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #FF7043;
+}
+
+/* Liên kết đăng xuất */
+a[href="{% url 'logout' %}"] {
+    display: block;
+    text-align: center;
+    background-color: #FF5722; /* Màu cam */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+a[href="{% url 'logout' %}"]:hover {
+    background-color: #e64a19;
+}
