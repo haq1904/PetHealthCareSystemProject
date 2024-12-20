@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Trang-1" id="8K1XiuxhxCOyhfcTuzyn">
-    <mxGraphModel dx="2062" dy="4245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3160" dy="4900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -812,19 +812,19 @@
           <mxGeometry y="50" width="170" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1be_aLhPk4HLiYhLGz5r-31" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Pet&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-187.5" y="-2090" width="170" height="150" as="geometry" />
+          <mxGeometry x="-187.5" y="-2090" width="177.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="1be_aLhPk4HLiYhLGz5r-32" value="+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Pet&lt;/span&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;(PK)&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;+Species&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Age&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Name_Pet&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Weight&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;+PetStatus&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="1be_aLhPk4HLiYhLGz5r-31" vertex="1">
-          <mxGeometry y="50" width="170" height="100" as="geometry" />
+          <mxGeometry y="50" width="177.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-3" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Medical_History&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="137.5" y="-2093" width="145" height="100" as="geometry" />
+          <mxGeometry x="220" y="-2093" width="145" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-4" value="+&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;Id_Pet&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Date&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Disease&lt;/span&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-3">
           <mxGeometry y="50" width="145" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-5" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Vaccination_History&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="137.5" y="-1960" width="145" height="100" as="geometry" />
+          <mxGeometry x="220" y="-1960" width="145" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-6" value="+&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;Id_Pet&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Date&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Vaccine_Type&lt;/span&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-5">
           <mxGeometry y="50" width="145" height="50" as="geometry" />
@@ -852,10 +852,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-11" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Booking&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="-1780" width="150" height="205" as="geometry" />
+          <mxGeometry x="220" y="-1780" width="160" height="205" as="geometry" />
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-12" value="+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Booking(PK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Customer(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Staff(FK)&lt;/span&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Pet(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Veterinarian(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Cost(NULL)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;AdditionalFee(NULL)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;CancleDate(NULL)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;RefundFee(NULL)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;BookingTime(NULL)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-11">
-          <mxGeometry y="50" width="150" height="155" as="geometry" />
+          <mxGeometry y="50" width="160" height="155" as="geometry" />
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-16" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;BookingStatus&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="553.5" y="-1727.5" width="153" height="100" as="geometry" />
@@ -896,15 +896,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-25" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Examine&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="137.5" y="-2280" width="160" height="150" as="geometry" />
+          <mxGeometry x="220" y="-2280" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-26" value="+&lt;u style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Examine(PK)&lt;/u&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Pet(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Diagnosis&lt;/span&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Symptom&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;ExamineTime&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Note&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-25">
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-26" value="+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Examine(PK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Pet(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Diagnosis&lt;/span&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Symptom&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;ExamineTime&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Note&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-25">
           <mxGeometry y="50" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-27" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Hospitalization&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="137.5" y="-2450" width="160" height="144" as="geometry" />
+          <mxGeometry x="220" y="-2450" width="160" height="144" as="geometry" />
         </mxCell>
-        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-28" value="+&lt;u style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Hospitalization(PK)&lt;/u&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Pet(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Cage(FK)&lt;/span&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;TreatmentProcess&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;StartDate&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;EndDate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-27">
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-28" value="+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Hospitalization(PK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Pet(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Cage(FK)&lt;/span&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;TreatmentProcess&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;StartDate&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;EndDate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-27">
           <mxGeometry y="50" width="160" height="94" as="geometry" />
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.991;entryY=0.141;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.007;exitY=0.299;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y8BSH66OHiQB6JGQ52Ao-26" target="1be_aLhPk4HLiYhLGz5r-32">
@@ -926,6 +926,87 @@
               <mxPoint x="80" y="-2370" />
               <mxPoint x="30" y="-2280" />
               <mxPoint x="50" y="-2080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-33" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Cage&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="-2340" width="180" height="119.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-34" value="+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Cage(PK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Description&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;CageStatus&lt;/span&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-33">
+          <mxGeometry y="50" width="180" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-35" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.003;exitY=0.428;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y8BSH66OHiQB6JGQ52Ao-28" target="Y8BSH66OHiQB6JGQ52Ao-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="-2200" as="sourcePoint" />
+            <mxPoint x="240" y="-2250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="-2360" />
+              <mxPoint x="100" y="-2280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-36" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Veterinarian&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-181" y="-1525" width="171" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-37" value="+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Veterinarian(PK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Name_Veterinarian&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;PhoneNumber_Veterinarian&lt;/span&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Specialization&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Email&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-36">
+          <mxGeometry y="50" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-38" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Shift&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-1520" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-39" value="&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Id_Veterinarian&lt;/span&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;(FK)&lt;/span&gt;&lt;/div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Morning&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Afternoon&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Night&lt;/span&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-38">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-40" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.999;entryY=0.149;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.003;exitY=0.162;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y8BSH66OHiQB6JGQ52Ao-39" target="Y8BSH66OHiQB6JGQ52Ao-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="-1520" as="sourcePoint" />
+            <mxPoint x="130" y="-1570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="-1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-41" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.003;exitY=0.446;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y8BSH66OHiQB6JGQ52Ao-12" target="Y8BSH66OHiQB6JGQ52Ao-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="-1610" as="sourcePoint" />
+            <mxPoint x="200" y="-1660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="-1661" />
+              <mxPoint x="200" y="-1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-42" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Review&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546.5" y="-1535" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-43" value="+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Review(PK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Booking(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Content&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Time&lt;br&gt;+&lt;/span&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Score&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-42">
+          <mxGeometry y="50" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-44" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Staff&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-182.5" y="-1900" width="172.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-45" value="+&lt;u style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Staff&lt;/u&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;(PK)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;+Name_Staff&lt;/span&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Content&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;PhoneNumber_Staff&lt;/span&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Y8BSH66OHiQB6JGQ52Ao-44">
+          <mxGeometry y="50" width="172.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-46" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.018;exitY=0.337;exitDx=0;exitDy=0;entryX=0.992;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="Y8BSH66OHiQB6JGQ52Ao-43" target="Y8BSH66OHiQB6JGQ52Ao-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="-1550" as="sourcePoint" />
+            <mxPoint x="470" y="-1600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="-1455" />
+              <mxPoint x="470" y="-1550" />
+              <mxPoint x="490" y="-1717" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-47" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.003;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y8BSH66OHiQB6JGQ52Ao-12" target="Y8BSH66OHiQB6JGQ52Ao-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="-1550" as="sourcePoint" />
+            <mxPoint x="350" y="-1600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="-1680" />
+              <mxPoint x="170" y="-1830" />
+              <mxPoint x="70" y="-1840" />
             </Array>
           </mxGeometry>
         </mxCell>
