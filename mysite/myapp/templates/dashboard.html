@@ -1,50 +1,48 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Health Care System</title>
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
     <header>
-        <h1>Pet Health Care System</h1>
+      <h1>Pet Health Care System</h1>
     </header>
 
     <nav class="navbar">
-        <span class="welcome-message">Chào mừng, {{ user.username }}!</span>
-        <div class="nav-links">
-            <a href="#">Đăng ký khám bệnh</a>
-            <a href="#">Đưa thú cưng đi khám</a>
-            <a href="#">Đánh giá các lần khám</a>
-            <a href="#">Quản lý nhập viện</a>
-        </div>
+      <span class="welcome-message">Chào mừng, {{ user.username }}!</span>
+      <div class="nav-links">
+        <a href="#">Đăng ký khám bệnh</a>
+        <a href="#">Đưa thú cưng đi khám</a>
+        <a href="#">Đánh giá các lần khám</a>
+        <a href="#">Quản lý nhập viện</a>
+      </div>
     </nav>
 
     <a href="{% url 'logout' %}" class="logout-link">Đăng xuất</a>
 
     <div class="main-content">
-        <div class="left-panel">
-            <h2>Danh sách thú cưng</h2>
-            <ul>
-                {% for pet in pets %}
-                    <li class="pet-item" data-pet-id="{{ pet.id }}">{{ pet.name }}</li>
-                {% empty %}
-                    <li>Không có thú cưng nào.</li>
-                {% endfor %}
-            </ul>
+      <div class="left-panel">
+        <h2>Danh sách thú cưng</h2>
+        <ul>
+          {% for pet in pets %}
+            <li class="pet-item" data-pet-id="{{ pet.id }}">{{ pet.name }}</li>
+          {% empty %}
+            <li>Không có thú cưng nào.</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="right-panel">
+        <h2>Thông tin thú cưng</h2>
+        <div id="pet-info">
+          <p>Chọn thú cưng bên trái để xem thông tin chi tiết.</p>
         </div>
-        <div class="right-panel">
-            <h2>Thông tin thú cưng</h2>
-            <div id="pet-info">
-                <p>Chọn thú cưng bên trái để xem thông tin chi tiết.</p>
-            </div>
-        </div>
+      </div>
     </div>
 
-    <footer>
-        &copy; 2025 Trung tâm chăm sóc thú y. Mọi quyền được bảo lưu.
-    </footer>
-</body>
+    <footer>&copy; 2025 Trung tâm chăm sóc thú y. Mọi quyền được bảo lưu.</footer>
+  </body>
 </html>
