@@ -8,29 +8,43 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <h1>Chào mừng, {{ user.username }}!</h1>
-    <p>Đây là bảng điều khiển của bạn. Bạn có thể quản lý thú cưng, đăng ký khám bệnh và theo dõi quá trình chữa bệnh của thú cưng.</p>
+    <header>
+        <h1>Pet Health Care System</h1>
+    </header>
 
-    <h2>Quản lý thú cưng</h2>
-    <ul>
-        {% for pet in pets %}
-            <li>
-                <a href="#">{{ pet.name }}</a>
-            </li>
-        {% empty %}
-            <li>Bạn chưa có thú cưng nào.</li>
-        {% endfor %}
-    </ul>
+    <nav class="navbar">
+        <span class="welcome-message">Chào mừng, {{ user.username }}!</span>
+        <div class="nav-links">
+            <a href="#">Đăng ký khám bệnh</a>
+            <a href="#">Đưa thú cưng đi khám</a>
+            <a href="#">Đánh giá các lần khám</a>
+            <a href="#">Quản lý nhập viện</a>
+        </div>
+    </nav>
 
-    <h3>Chức năng</h3>
-    <ul>
-        <li><a href="#">Đăng ký khám bệnh</a></li>
-        <li><a href="#">Đưa thú cưng đi khám</a></li>
-        <li><a href="#">Đánh giá các lần khám</a></li>
-        <li><a href="#">Quản lý nhập viện</a></li>
-    </ul>
+    <a href="{% url 'logout' %}" class="logout-link">Đăng xuất</a>
 
-    <br>
-    <a href="{% url 'logout' %}">Đăng xuất</a>
+    <div class="main-content">
+        <div class="left-panel">
+            <h2>Danh sách thú cưng</h2>
+            <ul>
+                {% for pet in pets %}
+                    <li class="pet-item" data-pet-id="{{ pet.id }}">{{ pet.name }}</li>
+                {% empty %}
+                    <li>Không có thú cưng nào.</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="right-panel">
+            <h2>Thông tin thú cưng</h2>
+            <div id="pet-info">
+                <p>Chọn thú cưng bên trái để xem thông tin chi tiết.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Trung tâm chăm sóc thú y. Mọi quyền được bảo lưu.
+    </footer>
 </body>
 </html>
