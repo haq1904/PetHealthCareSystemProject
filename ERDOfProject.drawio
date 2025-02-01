@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Trang-1" id="8K1XiuxhxCOyhfcTuzyn">
-    <mxGraphModel dx="1667" dy="4009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1782" dy="4077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,9 +21,6 @@
         </mxCell>
         <mxCell id="QY5TkbS7HgelhhC83756-7" value="Email" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="-955" width="104" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="QY5TkbS7HgelhhC83756-8" value="Wallet" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-151" y="-920" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QY5TkbS7HgelhhC83756-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="QY5TkbS7HgelhhC83756-2" target="QY5TkbS7HgelhhC83756-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -53,12 +50,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-70" y="-1005" as="sourcePoint" />
             <mxPoint x="-30" y="-995" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QY5TkbS7HgelhhC83756-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.421;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.756;exitY=0.062;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QY5TkbS7HgelhhC83756-8" target="QY5TkbS7HgelhhC83756-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-30" y="-918" as="sourcePoint" />
-            <mxPoint x="-30" y="-935" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QY5TkbS7HgelhhC83756-18" value="Pet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -673,7 +664,7 @@
         <mxCell id="1be_aLhPk4HLiYhLGz5r-28" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Customer&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-181.5" y="-1780" width="170" height="159" as="geometry" />
         </mxCell>
-        <mxCell id="1be_aLhPk4HLiYhLGz5r-29" value="+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Customer(PK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Name_Customer&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;PhoneNumber_Customer&lt;/span&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Address&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Wallet&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Email&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="1be_aLhPk4HLiYhLGz5r-28" vertex="1">
+        <mxCell id="1be_aLhPk4HLiYhLGz5r-29" value="+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Id_Customer(PK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Name_Customer&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;PhoneNumber_Customer&lt;/span&gt;&lt;div&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap; background-color: initial;&quot;&gt;Address&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: wrap; text-align: center;&quot;&gt;Email&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="1be_aLhPk4HLiYhLGz5r-28" vertex="1">
           <mxGeometry y="50" width="170" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1be_aLhPk4HLiYhLGz5r-31" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Pet&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1332,7 +1323,7 @@
             <mxPoint x="560" y="-1830" as="sourcePoint" />
             <mxPoint x="610" y="-1880" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="500" y="-2020" />
+              <mxPoint x="500" y="-1950" />
               <mxPoint x="530" y="-1880" />
             </Array>
           </mxGeometry>
