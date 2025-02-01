@@ -812,10 +812,10 @@
           <mxGeometry y="40" width="145" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-5" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Vaccination_History&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="-1920" width="145" height="100" as="geometry" />
+          <mxGeometry x="220" y="-1920" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-6" value="+&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;Id_Pet&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Date&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Vaccine_Type&lt;/span&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Y8BSH66OHiQB6JGQ52Ao-5" vertex="1">
-          <mxGeometry y="50" width="145" height="50" as="geometry" />
+        <mxCell id="Y8BSH66OHiQB6JGQ52Ao-6" value="+&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;Id_Pet&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;(FK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Date&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;Vaccine_Type&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;+Dosage&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;+Note&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Y8BSH66OHiQB6JGQ52Ao-5" vertex="1">
+          <mxGeometry y="50" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Y8BSH66OHiQB6JGQ52Ao-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="Y8BSH66OHiQB6JGQ52Ao-4" target="1be_aLhPk4HLiYhLGz5r-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
