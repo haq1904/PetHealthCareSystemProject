@@ -1389,10 +1389,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8dLda95uLoqzKWbKNS82-10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Appointment_Date&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="-1510" width="160" height="151.25" as="geometry" />
+          <mxGeometry x="550" y="-1510" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="8dLda95uLoqzKWbKNS82-11" value="+&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Id_Appointment_Date(PK)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Id_Booking(FK)&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;+Date&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;Morning(BOOLEAN)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;Afternoon(BOOLEAN)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;Night(BOOLEAN)&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="8dLda95uLoqzKWbKNS82-10">
-          <mxGeometry y="50" width="160" height="101.25" as="geometry" />
+        <mxCell id="8dLda95uLoqzKWbKNS82-11" value="+&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Id_Booking(FK)&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;+Date&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;Morning(BOOLEAN)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;Afternoon(BOOLEAN)&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;text-wrap-mode: wrap; text-align: center;&quot;&gt;Night(BOOLEAN)&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="8dLda95uLoqzKWbKNS82-10">
+          <mxGeometry y="50" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8dLda95uLoqzKWbKNS82-12" value="Date" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-437" y="-845" width="110" height="40" as="geometry" />
@@ -1401,6 +1401,19 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-322" y="-750" as="sourcePoint" />
             <mxPoint x="-254" y="-714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dLda95uLoqzKWbKNS82-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.999;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.009;exitY=0.14;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8dLda95uLoqzKWbKNS82-11" target="Y8BSH66OHiQB6JGQ52Ao-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="-1310" as="sourcePoint" />
+            <mxPoint x="420" y="-1360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="-1440" />
+              <mxPoint x="490" y="-1450" />
+              <mxPoint x="460" y="-1510" />
+              <mxPoint x="440" y="-1620" />
+              <mxPoint x="420" y="-1710" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
